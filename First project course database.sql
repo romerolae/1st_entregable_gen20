@@ -1,3 +1,9 @@
+-- Creation of a database for an online course platform 
+
+
+-- Creating tables in Dbeaver
+
+
 CREATE TABLE "users" (
   "id" uuid PRIMARY KEY DEFAULT gen_random_uuid(),
   "name" varchar NOT NULL,
